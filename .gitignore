@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Vosk model (too large for git, 39MB+)
+vosk-model-pt/
+
+# PyInstaller folders
+build/
+dist/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config files with personal preferences
+config.json
